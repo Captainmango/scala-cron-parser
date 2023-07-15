@@ -38,8 +38,8 @@
 /src/intellij*/*.ipr
 /src/intellij*/*.iws
 **/.cache
-.idea
-.settings
+/.idea/**
+/.settings/**
 
 # vscode
 /.vscode
