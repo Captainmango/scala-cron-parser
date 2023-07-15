@@ -67,3 +67,5 @@ project/**/metals.sbt
 
 .bsp
 /.idea/
+/.idea/**/*.xml
+

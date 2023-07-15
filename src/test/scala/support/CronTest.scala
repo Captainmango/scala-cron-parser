@@ -26,4 +26,8 @@ class CronTest extends AnyFlatSpec {
   "A Cron" should "have a dayOfWeek value" in {
     assert(cronUnderTest.dayOfWeek == "5")
   }
+
+  it should "be able to become a list" in {
+    assert(cronUnderTest.toList == List("1","2","3","4","5"))
+  }
 }
