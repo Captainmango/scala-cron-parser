@@ -38,7 +38,6 @@
 /src/intellij*/*.ipr
 /src/intellij*/*.iws
 **/.cache
-/.idea/**
 /.settings/**
 
 # vscode
@@ -67,3 +66,4 @@ jitwatch.out
 project/**/metals.sbt
 
 .bsp
+/.idea/
