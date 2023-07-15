@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80249ecd-5703-475f-8f74-1b3616b76d54" name="Changes" comment="Readme in the right folder">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Cron.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/CronTest.scala" afterDir="false" />
+    <list default="true" id="80249ecd-5703-475f-8f74-1b3616b76d54" name="Changes" comment="Deps and cron test">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parser/CronParser.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parser/Rules.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/parser/CronParserTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/parser/RulesTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Cron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/support/Cron.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/TimeIntervals.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/support/TimeIntervals.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/CronTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/support/CronTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/parser/ExpressionParser.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +51,33 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="support" />
+    </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.CronTest.">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="ScalaTest.CronParserTest">
+    <configuration name="CronParserTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="scala-cron-parser" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="parser.CronParserTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CronTest (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala-cron-parser" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="support.CronTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,11 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RulesTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala-cron-parser" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="parser.RulesTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.CronParserTest" />
+        <item itemvalue="ScalaTest.CronTest (1)" />
+        <item itemvalue="ScalaTest.RulesTest" />
         <item itemvalue="ScalaTest.CronTest." />
         <item itemvalue="ScalaTest.CronTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689443091713</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Deps and cron test">
+      <option name="closed" value="true" />
+      <created>1689444692210</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689444692210</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +200,7 @@
     <MESSAGE value=".gitignore" />
     <MESSAGE value="Committing these I guess" />
     <MESSAGE value="Readme in the right folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme in the right folder" />
+    <MESSAGE value="Deps and cron test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deps and cron test" />
   </component>
 </project>
