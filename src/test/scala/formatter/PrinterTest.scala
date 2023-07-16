@@ -2,7 +2,7 @@ package formatter
 
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
-import support.{ParsedCron, TimeIntervals}
+import core.{ParsedCron, TimeIntervals}
 
 import java.io.ByteArrayOutputStream
 

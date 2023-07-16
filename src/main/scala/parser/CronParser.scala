@@ -1,6 +1,6 @@
 package parser
 
-import support.{Cron, ParsedCron, TimeIntervals}
+import core.{Cron, ParsedCron, TimeIntervals}
 import parser.ExpressionEvaluator
 
 object CronParser {

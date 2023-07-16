@@ -1,4 +1,4 @@
-package support
+package core
 
 enum TimeIntervals(val upperBound: Int) {
   case Minute extends TimeIntervals(59)

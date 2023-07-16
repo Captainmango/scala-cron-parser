@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80249ecd-5703-475f-8f74-1b3616b76d54" name="Changes" comment="Test parser with realistic input">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/formatter/CronPrinter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/formatter/PrinterTest.scala" afterDir="false" />
+    <list default="true" id="80249ecd-5703-475f-8f74-1b3616b76d54" name="Changes" comment="Printer outputs to stdout correctly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/formatter/CronPrinter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/formatter/CronPrinter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/parser/CronParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parser/CronParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/parser/ExpressionEvaluator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parser/ExpressionEvaluator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/parser/Rules.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parser/Rules.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/support/Cron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/Cron.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/support/ParsedCron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/ParsedCron.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/support/TimeIntervals.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/TimeIntervals.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/formatter/PrinterTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/formatter/PrinterTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/parser/CronParserTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/parser/CronParserTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/parser/ExpressionEvaluatorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/parser/ExpressionEvaluatorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/support/CronTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/core/CronTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689518598739</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Printer outputs to stdout correctly">
+      <option name="closed" value="true" />
+      <created>1689520125591</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689520125591</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,7 +263,8 @@
     <MESSAGE value="parser is working. need to test all rules" />
     <MESSAGE value="can parse using rules" />
     <MESSAGE value="Test parser with realistic input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test parser with realistic input" />
+    <MESSAGE value="Printer outputs to stdout correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Printer outputs to stdout correctly" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/scala_cron_parser$ExpressionEvaluatorTest.ic" NAME="ExpressionEvaluatorTest Coverage Results" MODIFIED="1689516603240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

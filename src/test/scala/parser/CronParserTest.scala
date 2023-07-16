@@ -1,7 +1,7 @@
 package parser
 
 import parser.CronParser
-import support.{Cron, ParsedCron, TimeIntervals}
+import core.{Cron, ParsedCron, TimeIntervals}
 import org.scalatest.flatspec.AnyFlatSpec
 
 class CronParserTest extends AnyFlatSpec {

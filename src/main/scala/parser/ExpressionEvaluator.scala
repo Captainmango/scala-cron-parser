@@ -1,6 +1,6 @@
 package parser
 
-import support.{ParsedCron, TimeIntervals}
+import core.{ParsedCron, TimeIntervals}
 import parser.RulesEngine
 
 object ExpressionEvaluator {

@@ -2,7 +2,7 @@ package parser
 
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.prop.{TableDrivenPropertyChecks, TableFor4}
-import support.TimeIntervals
+import core.TimeIntervals
 import parser.{CronParser, ExpressionEvaluator}
 import parser.ExpressionEvaluator
 

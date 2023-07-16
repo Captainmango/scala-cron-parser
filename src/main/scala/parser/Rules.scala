@@ -1,6 +1,6 @@
 package parser
 
-import support.TimeIntervals
+import core.TimeIntervals
 
 sealed trait Rules {
   def wildcard(timeInt: TimeIntervals): List[Int] = {

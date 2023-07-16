@@ -1,8 +1,8 @@
-package support
+package core
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-import support.Cron
+import core.Cron
 
 class CronTest extends AnyFlatSpec {
   val cronUnderTest: Cron = Cron("1", "2", "3", "4", "5")

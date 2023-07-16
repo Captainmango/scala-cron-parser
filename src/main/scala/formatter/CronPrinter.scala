@@ -1,6 +1,6 @@
 package formatter
 
-import support.ParsedCron
+import core.ParsedCron
 
 object CronPrinter {
   def print(parsedCrons: List[ParsedCron]): Unit = {
