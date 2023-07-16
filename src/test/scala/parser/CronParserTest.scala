@@ -15,7 +15,7 @@ class CronParserTest extends AnyFlatSpec {
       ParsedCron(TimeIntervals.DayOfWeek, List(1)),
     ))
   }
-
+  
   it should "be able to pass a cron that is realistic" in {
     val cron: Cron = Cron("1-15", "*/5", "1,15", "7", "*")
     assert(CronParser.execute(cron) == List(
