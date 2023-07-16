@@ -1,6 +1,7 @@
 package parser
 
 import support.{Cron, ParsedCron, TimeIntervals}
+import parser.ExpressionEvaluator
 
 object CronParser {
   private val cronOrder: List[TimeIntervals] = List(
@@ -11,11 +12,8 @@ object CronParser {
     TimeIntervals.DayOfWeek
   )
 
-  def execute(cronExpr: Cron): List[ParsedCron] = {
-    // Zip list of cron pieces with cronOrder list
-    // Map over the list of tuples to get our list of lists (does map return a list or an array)
-    List(ParsedCron(TimeIntervals.DayOfWeek, List(1,2,3)))
-  }
+  def execute(cronExpr: Cron): List[ParsedCron] =
+    cronOrder.zip(cronExpr.toList).map((tI, cE) => ExpressionEvaluator.evaluate(cE, tI))
 }
 
 

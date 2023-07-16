@@ -1,19 +1,18 @@
 package parser
 
 import parser.CronParser
-import support.{Cron, TimeIntervals}
-
+import support.{Cron, ParsedCron, TimeIntervals}
 import org.scalatest.flatspec.AnyFlatSpec
 
 class CronParserTest extends AnyFlatSpec {
   it should "be able to pass a cron" in {
     val cron: Cron = Cron("1", "1", "1", "1", "1")
     assert(CronParser.execute(cron) == List(
-      List(1),
-      List(1),
-      List(1),
-      List(1),
-      List(1)
+      ParsedCron(TimeIntervals.Minute, List(1)),
+      ParsedCron(TimeIntervals.Hour, List(1)),
+      ParsedCron(TimeIntervals.DayOfMonth, List(1)),
+      ParsedCron(TimeIntervals.Month, List(1)),
+      ParsedCron(TimeIntervals.DayOfWeek, List(1)),
     ))
   }
 

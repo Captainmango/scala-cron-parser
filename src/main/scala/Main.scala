@@ -1,5 +1,7 @@
+import support.TimeIntervals
+
 object Main {
   def main(args: Array[String]): Unit = {
-    println("hello World")
+    println(TimeIntervals.Minute.upperBound.toString)
   }
 }
