@@ -20,12 +20,12 @@ A valid cron expression (without the @yearly or @weekly labels) is needed to suc
 
 ## Features
 ___
-- [ ] can parse a singular value
-- [ ] can parse a range of values
-- [ ] can parse a list of values
-- [ ] can parse a divisor value to the correct values
-- [ ] can parse wildcards (*) correctly
-- [ ] can output to STDOUT
+- [x] can parse a singular value
+- [x] can parse a range of values
+- [x] can parse a list of values
+- [x] can parse a divisor value to the correct values
+- [x] can parse wildcards (*) correctly
+- [x] can output to STDOUT
 - [ ] can write to a file
 - [ ] can accept a file as input containing a single expression
 - [ ] can output multiple parsed expressions with separators
