@@ -10,7 +10,7 @@ Clone the repo to your machine and run sbt run to execute the program.
 ```bash
 $ sbt run
 ```
-It's also possible to run `scala target/scala-3.3.0/scala-cron-parser_3-0.1.0-SNAPSHOT.jar` if you have already compiled the program with `sbt compile` or `sbt package` previously.
+You can create an Uber JAR by running `sbt assembly` This packages the dependencies and makes the JAR runnable by scala or java interpreters. N.B. make sure your classpath is set up correctly or you will get NoClassDef errors. When in doubt, just use sbt run.
 
 ## Usage
 ___
@@ -26,9 +26,8 @@ ___
 - [x] can parse a divisor value to the correct values
 - [x] can parse wildcards (*) correctly
 - [x] can output to STDOUT
-- [ ] can write to a file
+- [x] can write to a file
 - [ ] can accept a file as input containing a single expression
-- [ ] can output multiple parsed expressions with separators
 
 ## Tests
 ___

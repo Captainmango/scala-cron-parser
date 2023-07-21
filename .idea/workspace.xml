@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80249ecd-5703-475f-8f74-1b3616b76d54" name="Changes" comment="Printer outputs to stdout correctly">
+    <list default="true" id="80249ecd-5703-475f-8f74-1b3616b76d54" name="Changes" comment="Marked off the bits done from readme">
+      <change afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/CronParserApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/core/Cron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/Cron.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/core/ParsedCron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/ParsedCron.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/formatter/CronPrinter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/formatter/CronPrinter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/parser/CronParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parser/CronParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/parser/ExpressionEvaluator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parser/ExpressionEvaluator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/parser/Rules.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parser/Rules.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/support/Cron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/Cron.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/support/ParsedCron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/ParsedCron.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/support/TimeIntervals.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/TimeIntervals.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/formatter/PrinterTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/formatter/PrinterTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/parser/CronParserTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/parser/CronParserTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/parser/ExpressionEvaluatorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/parser/ExpressionEvaluatorTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/support/CronTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/core/CronTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,14 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last.edited.regexp": "/",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;/&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -60,7 +64,14 @@
       <recent name="support" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.PrinterTest">
+  <component name="RunManager" selected="Application.CronParserApp">
+    <configuration name="CronParserApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CronParserApp" />
+      <module name="scala-cron-parser" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="scala-cron-parser" />
@@ -68,31 +79,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CronParserTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="scala-cron-parser" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="parser.CronParserTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionEvaluatorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="scala-cron-parser" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="parser.ExpressionEvaluatorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="scala-cron-parser_3-0.1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/scala-3.3.0/scala-cron-parser_3-0.1.0-SNAPSHOT.jar" />
+      <method v="2" />
     </configuration>
     <configuration name="PrinterTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="scala-cron-parser" />
@@ -123,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CronParserApp" />
+        <item itemvalue="JAR Application.scala-cron-parser_3-0.1.0-SNAPSHOT.jar" />
         <item itemvalue="ScalaTest.PrinterTest" />
         <item itemvalue="ScalaTest.PrinterTest.it can do a thing" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="ScalaTest.CronParserTest" />
-        <item itemvalue="ScalaTest.ExpressionEvaluatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +236,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689520125591</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Hooked everything up to main">
+      <option name="closed" value="true" />
+      <created>1689521029340</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689521029340</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Marked off the bits done from readme">
+      <option name="closed" value="true" />
+      <created>1689521101173</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689521101173</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,7 +269,9 @@
     <MESSAGE value="can parse using rules" />
     <MESSAGE value="Test parser with realistic input" />
     <MESSAGE value="Printer outputs to stdout correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printer outputs to stdout correctly" />
+    <MESSAGE value="Hooked everything up to main" />
+    <MESSAGE value="Marked off the bits done from readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Marked off the bits done from readme" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/scala_cron_parser$ExpressionEvaluatorTest.ic" NAME="ExpressionEvaluatorTest Coverage Results" MODIFIED="1689516603240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
