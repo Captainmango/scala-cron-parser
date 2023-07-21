@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80249ecd-5703-475f-8f74-1b3616b76d54" name="Changes" comment="Marked off the bits done from readme">
-      <change afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/CronParserApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="80249ecd-5703-475f-8f74-1b3616b76d54" name="Changes" comment="Writing out to file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/core/Cron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/Cron.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/core/ParsedCron.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/ParsedCron.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/formatter/CronPrinter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/formatter/CronPrinter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/CronParserApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/CronParserApp.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689521101173</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Writing out to file">
+      <option name="closed" value="true" />
+      <created>1689944550552</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689944550552</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,7 +271,8 @@
     <MESSAGE value="Printer outputs to stdout correctly" />
     <MESSAGE value="Hooked everything up to main" />
     <MESSAGE value="Marked off the bits done from readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Marked off the bits done from readme" />
+    <MESSAGE value="Writing out to file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writing out to file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/scala_cron_parser$ExpressionEvaluatorTest.ic" NAME="ExpressionEvaluatorTest Coverage Results" MODIFIED="1689516603240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -23,8 +23,10 @@ object CronParserApp extends CommandApp(
       if outPath.isEmpty then CronPrinter.print(parsedCrons)
       else Try(new File(outPath)) match {
         case Success(v) =>
-          println(s"Wrote output to file: ${v.getCanonicalPath}")
-          CronPrinter.print(parsedCrons, v)
+          Try(CronPrinter.print(parsedCrons, v)) match {
+            case Success(_) => println(s"Wrote output to file: ${v.getCanonicalPath}")
+            case Failure(e) => println(s"Error occurred while writing file. Got error: $e")
+          }
         case Failure(e) => println(s"Invalid path given. Got error: $e")
       }
     }
